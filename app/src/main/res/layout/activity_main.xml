@@ -35,9 +35,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="綠燈秒數"
         app:layout_constraintEnd_toStartOf="@+id/t2"
-        app:layout_constraintTop_toTopOf="@+id/t2" />
+        app:layout_constraintTop_toTopOf="@+id/t2"
+        tools:text="綠燈秒數" />
 
     <EditText
         android:id="@+id/t2"
@@ -45,12 +45,12 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="黃燈秒數"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="黃燈秒數" />
 
     <EditText
         android:id="@+id/t3"
@@ -58,9 +58,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="紅燈秒數"
         app:layout_constraintStart_toEndOf="@+id/t2"
-        app:layout_constraintTop_toTopOf="@+id/t2" />
+        app:layout_constraintTop_toTopOf="@+id/t2"
+        tools:text="紅燈秒數" />
 
     <TextView
         android:id="@+id/textView"
@@ -86,15 +86,4 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.2" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.623" />
 </androidx.constraintlayout.widget.ConstraintLayout>
