@@ -6,12 +6,21 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
+
+import java.util.Timer;
 
 public class MainActivity extends AppCompatActivity {
+   Timer timer;
+   int tt=10;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        //t1=(TextView)=findViewById(R.id.t1);
+
 
         //設定全螢幕顯示
         View decorView = getWindow().getDecorView();
@@ -25,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
         //設定螢幕為橫式
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
 
-        setContentView(R.layout.activity_main);
+
+
     }
 
     public void StartGame(View v) {
@@ -39,4 +49,6 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 }
+
+
 
