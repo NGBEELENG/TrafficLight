@@ -34,33 +34,33 @@
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="綠燈秒數"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toStartOf="@+id/t2"
-        app:layout_constraintTop_toTopOf="@+id/t2"
-        tools:text="綠燈秒數" />
+        app:layout_constraintTop_toTopOf="@+id/t2" />
 
     <EditText
         android:id="@+id/t2"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="黃燈秒數"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="黃燈秒數" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/t3"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="紅燈秒數"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/t2"
-        app:layout_constraintTop_toTopOf="@+id/t2"
-        tools:text="紅燈秒數" />
+        app:layout_constraintTop_toTopOf="@+id/t2" />
 
     <TextView
         android:id="@+id/textView"

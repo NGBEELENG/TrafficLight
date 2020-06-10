@@ -11,8 +11,8 @@ import android.widget.TextView;
 import java.util.Timer;
 
 public class MainActivity extends AppCompatActivity {
-   Timer timer;
-   int tt=10;
+  // Timer timer;
+   //int tt=10;
 
 
     @Override
