@@ -2,11 +2,14 @@ package tw.pu.edu.o1073010.example.trafficlight;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.graphics.Canvas;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.AttributeSet;
 import android.view.MotionEvent;
+import android.view.SurfaceView;
 import android.view.View;
 
 public class GameActivity extends AppCompatActivity {
@@ -39,7 +42,11 @@ public class GameActivity extends AppCompatActivity {
 
         handler= new Handler();
 
-    }
+
+        }
+
+
+
 
     //利用手指觸控，控制小男孩走路
     public boolean onTouchEvent (MotionEvent event){
